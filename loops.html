@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The PyGuide: Loops</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1 class="category">The PyGuide</h1>
+        <h2>Guiding You to Become a Python Pro</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3 class="category">Loops</h3>
+        <p>Computers are quite efficient with repetitive tasks. In Python, it is possible to loop through characters in
+            a
+            string or items in a list.</p>
+        <h4 class="category"><code>for</code> Loops</h4>
+        <p>If you know how many times a loop needs to be repeated, use <code>for</code> loops to get the job done.
+            The easiest way to make sure a loop repeats a specific number of times is with the <code>range()</code>
+            function. The following example would execute ten times:</p>
+        <pre>
+    <code>
+      for i in range(10):
+        print("Hello World!")
+    </code>
+  </pre>
+        <h4 class="category"><code>while</code> Loops</h4>
+        <p><code>while</code> loops are effective when the programmer unsure how many times a loop will repeat. The loop
+            will
+            terminate or end once the condition it checks for after each repeat becomes false. Be sure to update the
+            condition after each repeat, or you will create an infinite loop that goes on forever. Here is the syntax
+            for a
+            <code>while</code> loop that prints "Hello World" until it has done it four times.</p>
+        <pre>
+    <code>
+      number = 0
+      while number < 4:
+        print("Hello World!")
+        number++
+    </code>
+  </pre>
+    </main>
+    <aside>
+        <h3>The PyGuides</h3>
+        <p><a href="intro.html">Introduction</a></p>
+        <p><a href="functions.html">Functions</a></p>
+        <p><a href="selection.html">Selection</a></p>
+        <p><a href="loops.html">Loops</a></p>
+        <p><a href="strings.html">Strings</a></p>
+        <p><a href="lists.html">Lists</a></p>
+        <p><a href="dictionaries.html">Dictionaries</a></p>
+    </aside>
+    <footer>
+        Copyright &copy; 2025 The PyGuide <br>
+        Contact the webmaster at <a href="mailto: mcolem11@my.westga.edu">mcolem11@my.westga.edu</a>
+    </footer>
+</div>
+</body>
+</html>

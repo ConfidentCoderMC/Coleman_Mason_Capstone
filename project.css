@@ -1,0 +1,289 @@
+/*
+Configures body background color and non-heading text to Arial font to improve readability
+ */
+body {
+    font-family: Arial, serif;
+    background-color: slategrey;
+}
+
+/*
+Configures heading text to Verdana font and bold to set headings apart
+ */
+.category {
+    font-family: Verdana, serif;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+/*
+Header and main navigation background colors match Python logo colors for consistent color scheme
+ */
+header {
+    text-align: center;
+    padding: 1em;
+    color: white;
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+
+nav {
+    font-weight: bold;
+    text-align: center;
+    background-color: gold;
+}
+
+/*
+Configures navigation menu items to display in a column for small mobile devices
+ */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+Configures menu items to take up 100% of a small screen's width
+ */
+nav ul li {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
+/*
+Removes underlines from menu items
+ */
+nav a {
+    text-decoration: none;
+    padding: 0.3em;
+}
+
+/*
+Default navigation link text color
+ */
+nav a:link {
+    color: darkviolet;
+}
+
+/*
+Link color when link has been visited
+ */
+nav a:visited {
+    color: darkviolet;
+}
+
+/*
+Link behavior when mouse hovers over link: a darkviolet oval surrounding white text
+ */
+nav a:hover {
+    color: white;
+    border-radius: 60px;
+    background-color: darkviolet;
+}
+
+main {
+    background-color: white;
+    margin-top: 1.5em;
+    color: black;
+    padding: 3em;
+    overflow: auto;
+    display: block;
+}
+
+/*
+Configures table to take up 100% of container width
+ */
+table {
+    width: 100%;
+    margin: auto;
+    background-color: darkviolet;
+}
+
+/*
+Configures table data cells and headings
+ */
+th, td {
+    padding: 0.5em;
+    text-align: center;
+    background-color: cornflowerblue;
+    border-style: none;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/*
+Configures table caption
+ */
+caption {
+    font-size: 1em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, serif;
+}
+
+/*
+Configures form to take up 100% of main's width
+ */
+form {
+    width: 100%;
+}
+
+/*
+Configures form fieldsets
+ */
+fieldset {
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border: 4px solid slategrey;
+    background-color: lightgrey;
+    color: black;
+}
+
+/*
+Configures legends for fieldsets
+ */
+legend {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+/*
+Configures input fields
+ */
+input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+form p {
+    margin: 10px 0 0;
+}
+
+/*
+Configures area for comments
+ */
+textarea {
+    display: block;
+    margin-top: 10px;
+    border: 3px solid slategrey;
+}
+
+/*
+Hides aside element on smaller screen sizes
+ */
+aside {
+    display: none;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    padding: 0.5em;
+}
+
+/*
+Footer background color is same as header for consistency
+ */
+footer {
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    font-style: italic;
+    padding: 1em;
+}
+
+/*
+Configures email address link text color
+ */
+footer a {
+    color: white;
+}
+
+/*
+Configures navigation menu items to appear in a row and removes borders on larger screens
+ */
+@media (min-width: 600px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav ul li {
+        border-bottom: none;
+    }
+}
+
+/*
+Configures aside element features and CSS grid layout for the largest screens
+ */
+@media (min-width: 1024px) {
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    aside {
+        background-color: darkviolet;
+        margin-top: 1.5em;
+        margin-right: 1em;
+        color: gold;
+        border: 2px solid gold;
+        padding: 1em;
+        grid-area: aside;
+        display: grid;
+    }
+
+    aside a {
+        text-decoration: none;
+        padding: 0.5em;
+    }
+
+    aside a:link {
+        color: gold;
+    }
+
+    aside a:visited {
+        color: gold;
+    }
+
+    aside a:hover {
+        color: black;
+        border-radius: 60px;
+        background-color: gold;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    #wrapper {
+        display: grid;
+        grid-template:
+                  "header header"
+                  "nav   nav"
+                  " aside   main"
+                  ". footer"
+                  / 180px;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+}

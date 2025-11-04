@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The PyGuide: Selection</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1 class="category">The PyGuide</h1>
+        <h2>Guiding You to Become a Python Pro</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3 class="category">Selection</h3>
+        <p>Sometimes, a program needs to determine if a condition is true or false before it continues. This is where
+            selection is useful.The <code>if</code> statement is the simplest form of selection and can also have an
+            optional
+            <code>else</code> clause if there are two possible flows of execution.</p>
+        <p>If there are more than two possible flows of execution, use <code>elif</code> statements for other branches
+            of execution.</p>
+        <p>Here's the syntax for selection with 3 possible paths:</p>
+        <pre><code>
+    if condition:
+      statements
+    elif condition:
+      statements
+    else:
+      statements
+  </code>
+  </pre>
+        <p>The conditional statements that go after the <code>if</code> and <code>elif</code> keywords are boolean
+            expressions that evaluate to a boolean value (True or False).</p>
+        <p>It is common to compare values and modify the behavior of the program depending on the result.
+            Comparison operators are used for this purpose. The table below describes them in detail.</p> <br>
+        <table>
+            <caption>Comparison Operators</caption>
+            <tr>
+                <th id="operator">Operator</th>
+                <th id="description">Description</th>
+                <th id="example">Example</th>
+            </tr>
+            <tr>
+                <td headers="operator">==</td>
+                <td headers="description">Compares values for equality</td>
+                <td headers="example"><code>2 == 2</code> (True) <br>
+                    <code>1 == 2</code> (False)
+                </td>
+            </tr>
+            <tr>
+                <td headers="operator">!=</td>
+                <td headers="description">Compares values for inequality</td>
+                <td headers="example"><code>2 != 5</code> (True) <br>
+                    <code>5 != 5</code> (False)
+                </td>
+            </tr>
+            <tr>
+                <td headers="operator">></td>
+                <td headers="description">Checks if first value is greater than the other value</td>
+                <td headers="example"><code>4 > 1</code> (True) <br>
+                    <code>4 > 10</code> (False)
+            </tr>
+            <tr>
+                <td headers="operator"><</td>
+                <td headers="description">Checks if first value is less than the other value</td>
+                <td headers="example"><code>10 < 21</code> (True) <br>
+                    <code>9 < 5</code> (False)
+            </tr>
+            <tr>
+                <td headers="operator">>=</td>
+                <td headers="description">Checks if first value is greater than or equal to the other value</td>
+                <td headers="example"><code>4 >= 1</code> (True) <br>
+                    <code>4 >= 4</code> (True) <br>
+                    <code>6 >= 7</code> (False)
+            </tr>
+            <tr>
+                <td headers="operator"><=</td>
+                <td headers="description">Checks if first value is less than or equal to the other value</td>
+                <td headers="example"><code>7 <= 10</code> (True) <br>
+                    <code>7 <= 7</code> (True) <br>
+                    <code>8 <= 6</code> (False)
+            </tr>
+        </table>
+    </main>
+    <aside>
+        <h3>The PyGuides</h3>
+        <p><a href="intro.html">Introduction</a></p>
+        <p><a href="functions.html">Functions</a></p>
+        <p><a href="selection.html">Selection</a></p>
+        <p><a href="loops.html">Loops</a></p>
+        <p><a href="strings.html">Strings</a></p>
+        <p><a href="lists.html">Lists</a></p>
+        <p><a href="dictionaries.html">Dictionaries</a></p>
+    </aside>
+    <footer>
+        Copyright &copy; 2025 The PyGuide <br>
+        Contact the webmaster at <a href="mailto: mcolem11@my.westga.edu">mcolem11@my.westga.edu</a>
+    </footer>
+</div>
+</body>
+</html>
