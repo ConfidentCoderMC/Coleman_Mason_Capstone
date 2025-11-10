@@ -98,12 +98,13 @@ details {
     padding: 1;
 }
 
-summary {
-    font-weight: bold;
+details p {
+    padding: 0.5em;
 }
 
-summary p {
-    padding: 0.5em;
+
+summary {
+    font-weight: bold;
 }
 
 /*
@@ -290,4 +291,5 @@ Configures aside element features and CSS grid layout for the largest screens
         flex-direction: row;
     }
 }
+
 
