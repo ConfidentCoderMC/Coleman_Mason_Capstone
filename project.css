@@ -94,8 +94,12 @@ main {
     display: block;
 }
 
+details {
+    padding: 1;
+}
+
 summary {
-    font-weight: bold
+    font-weight: bold;
 }
 
 summary p {
@@ -286,3 +290,4 @@ Configures aside element features and CSS grid layout for the largest screens
         flex-direction: row;
     }
 }
+
