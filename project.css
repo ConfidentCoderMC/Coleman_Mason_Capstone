@@ -94,6 +94,14 @@ main {
     display: block;
 }
 
+summary {
+    font-weight: bold
+}
+
+summary p {
+    padding: 0.5em;
+}
+
 /*
 Configures table to take up 100% of container width
  */
@@ -181,14 +189,6 @@ Hides aside element on smaller screen sizes
  */
 aside {
     display: none;
-}
-
-dt {
-    font-weight: bold;
-}
-
-dd {
-    padding: 0.5em;
 }
 
 /*
@@ -285,5 +285,4 @@ Configures aside element features and CSS grid layout for the largest screens
     nav ul {
         flex-direction: row;
     }
-
 }
