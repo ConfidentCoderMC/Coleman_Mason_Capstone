@@ -94,8 +94,41 @@ main {
     display: block;
 }
 
+section {
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding: 0;
+    background-color: #EAEAEA;
+}
+
+section h3 {
+    padding: .25em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 110%;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+section p {
+    padding: 0 0.25em 0.25em;
+}
+
+.shop {
+    border: 1px solid black;
+    background-color: #FFFFFF;
+}
+
+.shop img {
+    float: right;
+}
+
+.shop form {
+    padding: 1em;
+}
+
 details {
-    padding: 1;
+    padding: 1em;
 }
 
 details p {
