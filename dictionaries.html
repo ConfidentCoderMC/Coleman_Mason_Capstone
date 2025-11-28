@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dictionaries are similar to lists but have items in key-value pairs. Here, you'll learn how to create, modify, and remove these keys and values.">
+    <title>The PyGuide: Dictionaries</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1 class="category">The PyGuide</h1>
+        <h2>Guiding You to Become a Python Pro</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="shop.html">Shop</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3 class="category">Dictionaries</h3>
+        <p>A dicionary allows you to store related data. This data comes in the form of <em>key-value pairs</em>. A key can be used to access the value it's 
+        associated with. Here's the basic syntax for creating a dictionary:</p>
+        <code>dictionary_name = {key : value, key : value, key : value}</code>
+        <p>Like lists, the values in a dictionary can be of any type (numbers, floats, strings, lists, even other dictionaries!).</p>
+        <h4 class="category">Accessing Values in a Dictionary</h4>
+        <code>dictionary_name[key]</code>
+        <h4 class="category">Adding Key-Value Pairs</h4>
+        <code>dictionary_name[new_key] = new_value</code>
+        <h4 class="category">Modifying Dictionary Values</h4>
+        <code>dictionary_name[key] = new_value</code>
+        <h4 class="category">Additional Tips</h4>
+        <p>Use the <code>get(key, value to return if key doesm't exist)</code> method to access a value if it's possible that the key yout're requesting does not 
+            exist. The key parameter is required, but the return value is optional. If you don't include this parameter, the method returns <code>None</code>.</p>
+    </main>
+    <aside>
+        <h3>The PyGuides</h3>
+        <p><a href="intro.html">Introduction</a></p>
+        <p><a href="functions.html">Functions</a></p>
+        <p><a href="selection.html">Selection</a></p>
+        <p><a href="loops.html">Loops</a></p>
+        <p><a href="strings.html">Strings</a></p>
+        <p><a href="lists.html">Lists</a></p>
+        <p><a href="dictionaries.html">Dictionaries</a></p>
+    </aside>
+    <footer>
+        Copyright &copy; 2025 The PyGuide <br>
+        Contact the webmaster at <a href="mailto:mcolem11@my.westga.edu">mcolem11@my.westga.edu</a>
+    </footer>
+</div>
+</body>
+</html>

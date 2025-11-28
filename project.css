@@ -146,7 +146,7 @@ Configures table to take up 100% of container width
 table {
     width: 100%;
     margin: auto;
-    background-color: darkviolet;
+    background-color: slategray;
 }
 
 /*
@@ -155,9 +155,9 @@ Configures table data cells and headings
 th, td {
     padding: 0.5em;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: white;
     border-style: none;
-    color: white;
+    color: black;
     font-family: Arial, sans-serif;
 }
 
@@ -197,7 +197,7 @@ legend {
     color: white;
     font-weight: bold;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: slategray;
 }
 
 /*
@@ -324,5 +324,3 @@ Configures aside element features and CSS grid layout for the largest screens
         flex-direction: row;
     }
 }
-
-

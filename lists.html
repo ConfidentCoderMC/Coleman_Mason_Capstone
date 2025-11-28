@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lists are one of Python's most powerful features. These data structures can hold as much data as you find necessary, and this data need not be of the same type.">
+    <title>The PyGuide: Lists</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1 class="category">The PyGuide</h1>
+        <h2>Guiding You to Become a Python Pro</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="shop.html">Shop</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3 class="category">Lists</h3>
+        <p>A list is composed of Python data values enclosed in square brackets, where each item is separated by a comma. Lists are similar to strings in many ways.
+        You can use the <code>len()</code> function to determine how many items are in a list. In addition you can combine lists with the "+" symbol.
+        Lastly, you can use the index operator ([ ]) to access individual items.</p>
+        <p>If an item in a list is a string or another list, use a second index operator to access the individual characters or elements.</p>
+        <p>Example: <br>
+            <code>
+                aList = [3, 67, "cat", [56, 57, "dog"]] <br>
+                print(aList[2][0]) <br>
+                c
+            </code>
+        </p>
+        <h4 class="category">List Methods</h4>
+        <p>Like strings, lists have a set of methods that make interacting with them possible. Some methods, such as count(), can be used on both strings and lists.</p>
+        <p>Common List Methods:</p>
+        <ul>
+            <li><code>append(item)</code> - adds item to the end if a list</li>
+            <li><code>sort()</code> - modifies a list to be sorted</li>
+            <li><code>reverse()</code> - modifies a list to be in reverse order</li>
+            <li><code>insert(position, item)</code> - inserts item at position</li>
+            <li><code>pop()</code> - removes and returns last item; add the optional <em>position</em> argument to remove and return item at position</li>
+            <li><code>insert(position, item)</code> - inserts item at position</li>
+        </ul>
+        <h4 class="category">Tuples</h4>
+        <p>Tuples are a special kind of list. The values are usually enclosed in parentheses, and each value is separated by a comma. What makes a tuple unique is 
+        its immutable nature. This means the values cannot change. However, it is possible to assign a new value to a variable that represents a tuple.
+        </p>
+        <p>Note: If you're defining a tuple with only one element, include a trailing comma. Example: <code>my_tuple = (7,)</code></p>
+    </main>
+    <aside>
+        <h3>The PyGuides</h3>
+        <p><a href="intro.html">Introduction</a></p>
+        <p><a href="functions.html">Functions</a></p>
+        <p><a href="selection.html">Selection</a></p>
+        <p><a href="loops.html">Loops</a></p>
+        <p><a href="strings.html">Strings</a></p>
+        <p><a href="lists.html">Lists</a></p>
+        <p><a href="dictionaries.html">Dictionaries</a></p>
+    </aside>
+    <footer>
+        Copyright &copy; 2025 The PyGuide <br>
+        Contact the webmaster at <a href="mailto:mcolem11@my.westga.edu">mcolem11@my.westga.edu</a>
+    </footer>
+</div>
+</body>
+</html>

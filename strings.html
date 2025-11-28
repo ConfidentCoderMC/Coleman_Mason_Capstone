@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Strings are important data structures that are made up of individual characters. In this module, we will show you some methods to manipulate strings and give you a few extra tips.">
+    <title>The PyGuide: Strings</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1 class="category">The PyGuide</h1>
+        <h2>Guiding You to Become a Python Pro</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="shop.html">Shop</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3 class="category">Strings</h3>
+        <p>A string is a collection of letters, numbers, special characters, and/or whitespace enclosed in between single or double quotation marks.</p>
+        <h4 class="category">Useful String Methods</h4>
+        <p>A <em>method</em> is a function that works with data. There are numerous methods that you can use on strings. Here's how you call or request a method:</p>
+        <p><code>variable_name.method_name(method arguments go here)</code></p><br>
+        <p> The "." between the variable and method is called the <em>dot operator</em> and tells Python to apply the method to the variable.</p><br>
+        <p>Common String Methods:</p>
+        <ul>
+            <li><code>upper()</code> - returns a string in all uppercase</li>
+            <li><code>lower()</code> - returns a string in all lowercase</li>
+            <li><code>title()</code> - returns a string wwith the first letter of each word being capitalized</li>
+            <li><code>strip()</code> - returns a string with all whitespace removed; add "l" or "r" in front of strip to remove left or right whitespace respectively</li>
+            <li><code>replace(old, new)</code> - replaces all old with new</li>
+            <li><code>count(item)</code> - returns the number of occurrences of an item</li>
+        </ul>
+        <p>Additional String Tips:</p>
+        <ul>
+            <li>You can combine strings end-to-end, a process called <em>concatenation</em>, with the "+" sign.</li>
+            <li>Use the <code>len()</code> function to determine how many characters are in a string. <code>len("Hello")</code> returns 5.</li>
+            <li>You can get a specific character from a string with the <em>index operator</em> ([ ]). Let's say a variable called <code>animal</code>
+                stores the string value "cat". To get the "c" in "cat", use <code>animal[0]</code>. The 0 is the positional value or index of the 
+                character in a string.</li>
+        </ul>
+        <p>Note: If you're trying to access the first character in a string, the first item's index is 0. The last character's index is -1.</p>
+    </main>
+    <aside>
+        <h3>The PyGuides</h3>
+        <p><a href="intro.html">Introduction</a></p>
+        <p><a href="functions.html">Functions</a></p>
+        <p><a href="selection.html">Selection</a></p>
+        <p><a href="loops.html">Loops</a></p>
+        <p><a href="strings.html">Strings</a></p>
+        <p><a href="lists.html">Lists</a></p>
+        <p><a href="dictionaries.html">Dictionaries</a></p>
+    </aside>
+    <footer>
+        Copyright &copy; 2025 The PyGuide <br>
+        Contact the webmaster at <a href="mailto:mcolem11@my.westga.edu">mcolem11@my.westga.edu</a>
+    </footer>
+</div>
+</body>
+</html>
